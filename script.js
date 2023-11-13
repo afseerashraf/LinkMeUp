@@ -150,5 +150,9 @@ window.addEventListener("resize", function() {
     BODY.style.background = getRandomColor(98);
 
   }
+
+
+  
+ 
 }, false)
 

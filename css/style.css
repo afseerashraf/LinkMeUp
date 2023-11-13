@@ -12,6 +12,8 @@ body {
     line-height: 1.5; /* Adjust line spacing for better readability */
 }
 
+
+/*sasas*/
 a {
     color: inherit;
     text-decoration: none;
@@ -19,7 +21,7 @@ a {
 }
 
 .container-section {
-    height: 100%;
+    height: 00%;
     width: 100%;
 }
 
@@ -130,3 +132,51 @@ a {
 @media  (max-width:1000px) {
     /* Media queries for responsive design can be added here */
 }
+/*aud*/
+.audio-player {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+audio {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.player-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button {
+    background: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.progress {
+    flex: 1;
+    background: #ddd;
+    height: 10px;
+    margin: 0 10px;
+    position: relative;
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background: #ff5722;
+    position: absolute;
+}
+
+
+
+
